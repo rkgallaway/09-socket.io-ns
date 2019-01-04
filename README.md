@@ -1,18 +1,20 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 09
 =================================================
 
-## Project Name
+## 09-socket.io-ns
 
-### Author: Student/Group Name
+### Author: Ryan Gallaway
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/09-socket.io-ns.svg?branch=master)](https://www.travis-ci.com/rkgallaway/09-socket.io-ns)
+
+* [repo](https://github.com/rkgallaway/09-socket.io-ns)
+* [travis](https://www.travis-ci.com/rkgallaway/09-socket.io-ns)
+* [heroku](https://lab-09-socket-io-ns.herokuapp.com)
 
 ### Modules
-#### `modulename.js`
+#### `app.js`
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -23,8 +25,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - Port described in ENV, but shouldn't be necessary for this use case
 
 #### Running the app
 * `npm start`
@@ -38,5 +39,3 @@ Usage Notes or examples
 * What assertions were made?
 * What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events
