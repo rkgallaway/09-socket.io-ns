@@ -1,3 +1,5 @@
+'use strict';
+
 const io = require('socket.io-client');
 
 const numbers = io.connect('http://localhost:3000/numbers');
